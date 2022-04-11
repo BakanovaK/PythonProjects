@@ -1,16 +1,71 @@
 import os
+import time
+import webbrowser
+
 
 clear = lambda: os.system('cls||clear')
 clear()
-a = str(input('Почему ты плачешь?\n'))
+
+a = input('Тебе надоела учеба? ты хочешь отдохнуть от неё?\n')
+
 clear()
-import time
 time.sleep(0.5)
-for i in range(2):
-	for s in range(3):
-		print('Загрузка', '.' *(s + 1), sep = '')
-		time.sleep(0.5)
+
+if (a.lower() == 'да'):
+	for i in range(2):
+		for s in range(3):
+			print('Загрузка', '.' *(s + 1), sep = '')
+			time.sleep(0.5)
+			clear()
+	
+	webbrowser.open('https://docs.google.com/document/d/10SL--6MHD22JXdYRCDgEBptB_v76Kx6j7ESvmal6Tcg/edit?usp=sharing', new=1)
+	time.sleep(1)
+
+elif (a.lower() == 'нет'):
+	b = input('Пидора ответ\n')
+	if (b.lower() == 'шлюхи аргумент'):
+		с = input('Аргумент не нужен, пидор обнаружен\n')
+		if (с.lower() == 'пидор засекречен, твой анал не вечен'):
+			print('Мой анал не вечен, а твой уже помечен')
+			time.sleep(2.0)
+			webbrowser.open('https://pbs.twimg.com/media/EbOVoIyXQAAC7yh.jpg', new=1)
+			time.sleep(2.0)
+			clear()
+		elif (с.lower() == 'пидр засекречен, твой анал не вечен'):
+			print('Мой анал не вечен, а твой уже помечен')
+			time.sleep(2.0)
+			webbrowser.open('https://pbs.twimg.com/media/EbOVoIyXQAAC7yh.jpg', new=1)
+			time.sleep(2.0)
+			clear()
+		elif (с.lower() == 'пидр засекречен твой анал не вечен'):
+			print('Мой анал не вечен, а твой уже помечен')
+			time.sleep(2.0)
+			webbrowser.open('https://pbs.twimg.com/media/EbOVoIyXQAAC7yh.jpg', new=1)
+			time.sleep(2.0)
+			clear()
+		elif (с.lower() == 'пидор засекречен твой анал не вечен'):
+			print('Мой анал не вечен, а твой уже помечен')
+			time.sleep(2.0)
+			webbrowser.open('https://pbs.twimg.com/media/EbOVoIyXQAAC7yh.jpg', new=1)
+			time.sleep(2.0)
+			clear()
+		else:
+			print('лох, проиграл')
+			time.sleep(2.0)
+			webbrowser.open('https://pbs.twimg.com/media/EbOVoIyXQAAC7yh.jpg', new=1)
+			time.sleep(2.0)
+			clear()
+	else:
+		print('лох, проиграл')
+		time.sleep(2.0)
+		webbrowser.open('https://pbs.twimg.com/media/EbOVoIyXQAAC7yh.jpg', new=1)
+		time.sleep(2.0)
 		clear()
-import webbrowser
-webbrowser.open('https://docs.google.com/document/d/10SL--6MHD22JXdYRCDgEBptB_v76Kx6j7ESvmal6Tcg/edit?usp=sharing', new=1)
-time.sleep(1)
+	
+	time.sleep(2.0)
+	clear()
+
+else:
+	print('иди нахуй')
+	time.sleep(2.0)
+	clear()
